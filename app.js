@@ -4,7 +4,7 @@ let listaDeNumerosSorteados = [];
 let limiteMaximoDoNumero = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1 ;
-let olaMundo;
+
 
 function exibirTextoNaTela(tag, texto) {
    let campo = document.querySelector(tag);
@@ -68,4 +68,8 @@ function gerarNumeroAleatorio() {
 function limparCampo () {
     chute = document.querySelector('input');
     chute.value = '';
+}
+
+function toTestandoGit () {
+   
 }
