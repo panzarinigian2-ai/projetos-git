@@ -70,6 +70,3 @@ function limparCampo () {
     chute.value = '';
 }
 
-function toTestandoGit () {
-   
-}
